@@ -12,12 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5005/api/entries/all",
-					"protocol": "http",
+					"raw": "https://travel-diary-gold.vercel.app/api/entries/all",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"travel-diary-gold",
+						"vercel",
+						"app"
 					],
-					"port": "5005",
 					"path": [
 						"api",
 						"entries",
@@ -34,7 +35,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"title\": \"Title 5\",\n  \"date\": \"2024-08-19\",\n  \"location\": \"Sample Location\",\n  \"description\": \"Sample Description\"\n}\n",
+					"raw": "{\n  \"title\": \"Trip 5\",\n  \"date\": \"2024-08-19\",\n  \"location\": \"Sample Location\",\n  \"description\": \"Sample Description\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,12 +43,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5005/api/entries/add",
-					"protocol": "http",
+					"raw": "https://travel-diary-gold.vercel.app/api/entries/add",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"travel-diary-gold",
+						"vercel",
+						"app"
 					],
-					"port": "5005",
 					"path": [
 						"api",
 						"entries",
@@ -63,17 +65,18 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5005/api/entries/delete/66c2eb26ac87a974bc153849",
-					"protocol": "http",
+					"raw": "https://travel-diary-gold.vercel.app/api/entries/delete/66c36ffed1a50d30d6c51dd9",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"travel-diary-gold",
+						"vercel",
+						"app"
 					],
-					"port": "5005",
 					"path": [
 						"api",
 						"entries",
 						"delete",
-						"66c2eb26ac87a974bc153849"
+						"66c36ffed1a50d30d6c51dd9"
 					]
 				}
 			},
@@ -86,7 +89,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"title\": \"Title 5\",\n  \"date\": \"2024-08-19\",\n  \"location\": \"Sample \",\n  \"description\": \"Sample Description\"\n}",
+					"raw": "{\n  \"title\": \"Trip 5\",\n  \"date\": \"2024-08-19\",\n  \"location\": \"Sample \",\n  \"description\": \"Sample Description\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,17 +97,18 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5005/api/entries/update/66c30aaedff48dd3c54ab0e2",
-					"protocol": "http",
+					"raw": "https://travel-diary-gold.vercel.app/api/entries/update/66c37067e4c4a931053d4946",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"travel-diary-gold",
+						"vercel",
+						"app"
 					],
-					"port": "5005",
 					"path": [
 						"api",
 						"entries",
 						"update",
-						"66c30aaedff48dd3c54ab0e2"
+						"66c37067e4c4a931053d4946"
 					]
 				}
 			},
