@@ -10,9 +10,7 @@ const app = express();
 const conn = require('./config/db');
 conn.connectDB();
 // Middleware
-app.use(cors({
-    origin: 'http://localhost:3001/'
-}));
+app.use(cors());
 app.use(express.json());
 
 // Routes
