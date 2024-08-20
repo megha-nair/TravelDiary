@@ -1,5 +1,7 @@
 # Travel Diary Backend
 
+**Deployed link**- https://megha-nair.github.io/TravelDiaryFrontend/
+
 **Frontend repo link**- https://github.com/megha-nair/TravelDiaryFrontend.git
 
 ## Schema
